@@ -226,7 +226,7 @@ class Collection extends Fieldset
         }
 
         foreach ($toRemove as $name) {
-            $this->remove((string) $name);
+            $this->remove($name);
         }
 
         foreach ($data as $key => $value) {
